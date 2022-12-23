@@ -1,0 +1,39 @@
+- NFA:
+Set of states: 1, 2, 3
+
+Input alphabet: a, b
+
+State-transitions function:
+Transition 1 -a> 1
+Transition 1 -a> 2
+Transition 1 -b> 3
+Transition 2 -a> 2
+Transition 2 -b> 1
+Transition 2 -b> 3
+Transition 3 -a> 3
+Transition 3 -b> 3
+
+Initial states: 1
+
+Final states: 3
+
+- DFA:
+Set of states: 1, 12, 3, 13, 123
+
+Input alphabet: a, b
+
+State-transitions function:
+Transition 1 -a> 12
+Transition 1 -b> 3
+Transition 12 -a> 12
+Transition 12 -b> 13
+Transition 3 -a> 3
+Transition 3 -b> 3
+Transition 13 -a> 123
+Transition 13 -b> 3
+Transition 123 -a> 123
+Transition 123 -b> 13
+
+Initial states: 1
+
+Final states: 3, 13, 123

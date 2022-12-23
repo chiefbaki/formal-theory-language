@@ -1,0 +1,10 @@
+{
+    "name": "Islam",
+    "age": 20e5,
+    "has_friends": true,
+    "specialty": "Software Engineer",
+    "hobby": [
+        "workout",
+        "reading"
+    ]
+}
